@@ -1,7 +1,4 @@
-[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")  
-[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") 
-[void] [System.Windows.Forms.Application]::EnableVisualStyles()  
- $Pacotes = @{
+' $Pacotes = @{
              "NodeJS"= @{
                            "Instalador" = "choco install nodejs-lts";
                            "Versao" = "node -v";
