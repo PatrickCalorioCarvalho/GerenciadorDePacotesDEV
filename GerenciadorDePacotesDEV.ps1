@@ -1,3 +1,5 @@
+Add-Type -AssemblyName System.Windows.Forms
+Add-Type -AssemblyName System.Drawing
 $Pacotes = @{
              "NodeJS"= @{
                            "Instalador" = "choco install nodejs-lts";
