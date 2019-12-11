@@ -1,4 +1,4 @@
-' $Pacotes = @{
+$Pacotes = @{
              "NodeJS"= @{
                            "Instalador" = "choco install nodejs-lts";
                            "Versao" = "node -v";
