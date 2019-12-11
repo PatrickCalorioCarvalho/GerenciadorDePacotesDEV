@@ -1,5 +1,5 @@
-Add-Type -AssemblyName System.Windows.Forms
-Add-Type -AssemblyName System.Drawing
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms")
+[void] [System.Reflection.Assembly]::LoadWithPartialName("System.Drawing")
 $Pacotes = @{
              "NodeJS"= @{
                            "Instalador" = "choco install nodejs-lts";
