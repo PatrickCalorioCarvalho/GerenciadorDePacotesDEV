@@ -22,7 +22,7 @@
 }
 
 $Form = New-Object System.Windows.Forms.Form
-$Form.Text = ”Gerenciador De Pacotes DEV”
+$Form.Text = "Gerenciador De Pacotes DEV"
 $Form.width = 500
 $Form.height = 750
 $Form.StartPosition = "CenterScreen" 
